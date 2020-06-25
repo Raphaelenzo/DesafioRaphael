@@ -11,7 +11,7 @@ public class DriverFactory extends BasePage {
     public static WebDriver getNavegador() {
 
         if (navegador == null) {
-            System.setProperty("webdriver.chrome.driver", "target\\WebDrivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "WebDrivers\\chromedriver.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--start-maximized");
             navegador = new ChromeDriver(chromeOptions);
