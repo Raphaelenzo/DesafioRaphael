@@ -6,15 +6,23 @@ Projeto Criado para desafio de automatizar o caso de teste enviado pro email.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Pre-requisitos
+### Pre-requisites
 
-- Instalado na maquina a ide IntelliJ IDEA (Versão mais atual)
+- Instalado na maquina a IntelliJ IDEA (Versão mais atual)
 - Instalado na maquina java version "1.8.0_211"
 - Navegador Google Chrome Versão 83.0.4103.116 (Versão oficial) 64 bits 
 
 ## Running the tests
 
-Realizar o Download do projeto no Git Hub
+- Realizar o Download do projeto.
+- Descompactar a pasta do projeto.
+- No IntelliJ IDEA acessar "File/Open" selecionar a pasta do projeto descompactado.
+- Com o projeto carregado no IntelliJ IDEA é necessario realizar o download das dependencias.
+Para realização do Dowload das dependencias o propio IntelliJ IDEA exibe um Pop-up para dowload
+ou clicando na barra do lado esquerdo na opção Maven e clicar em Reload all Mavem Project.
+ 
+
+
 Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
