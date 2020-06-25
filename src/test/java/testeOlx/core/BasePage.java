@@ -96,7 +96,7 @@ public class BasePage {
 
     public static String horaArquivo() {
         Timestamp ts = new Timestamp(System.currentTimeMillis());
-        return new SimpleDateFormat("HHmm").format(ts);
+        return new SimpleDateFormat("HHmmss").format(ts);
     }
 
 

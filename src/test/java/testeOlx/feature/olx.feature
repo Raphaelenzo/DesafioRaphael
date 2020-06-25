@@ -29,7 +29,7 @@ Funcionalidade: Teste site olx
       | email                         | senha         | user           |
       | testequalidadetotvs@gmail.com | Qualidade@123 | testequalidade |
 
-  Esquema do Cenario: Realizar a busca e favoritar um item
+  Esquema do Cenario: Realizar a busca de um item e favoritar
 
     Quando usuario acessa o site da olx
     E clica no botão entrar
@@ -51,7 +51,7 @@ Funcionalidade: Teste site olx
       | email                         | senha         | estado    | abreviaturaEstado | palavrachave |
       | testequalidadetotvs@gmail.com | Qualidade@123 | São Paulo | sp                | camisa       |
 
-  Esquema do Cenario: desfavoritar um item
+  Esquema do Cenario: desfavoritar o item
 
     Quando usuario acessa o site da olx
     E clica no botão entrar

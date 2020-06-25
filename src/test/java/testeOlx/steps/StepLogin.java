@@ -71,8 +71,6 @@ public class StepLogin extends PageOlx {
     @Quando("Para realizar a busca no estado selecionado (.*) preencho o campo buscar com a palavra chave (.*)")
     public void para_realizar_a_busca_no_estado_selecionado_preencho_o_campo_buscar_com_a_palavra_chave(String arg1, String agr2) {
         getNavegador().get("https://".concat(arg1).concat(".olx.com.br/?q=".concat(agr2)));
-
-       // clicar(By.xpath("//span[.='".concat(campo).concat("']//..//..//div[@class='CMAutoSearchMethod grid_3']//a[.='select']")), 5);
     }
 
     @Quando("verificar se a busca retornou o esperado (.*)")
@@ -80,7 +78,6 @@ public class StepLogin extends PageOlx {
         pause(5000);
         verificarPalavraChave(palavrachave);
     }
-
 
     @Quando("clicar no primeiro item do retono da busca")
     public void clicar_no_primeiro_item_do_retono_da_busca() {
@@ -120,9 +117,7 @@ public class StepLogin extends PageOlx {
     public void verifica_se_o_item_foi_adcionado_aos_favoritos(String palavrachave) {
         clicarMenuFavoritos();
         pause(2000);
-
         verificarFavorito(palavrachave);
-
     }
 
     @Quando("clica no botão favoritos")
