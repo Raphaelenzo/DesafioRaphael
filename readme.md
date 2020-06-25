@@ -20,7 +20,6 @@ These instructions will get you a copy of the project up and running on your loc
 - Com o projeto carregado no IntelliJ IDEA é necessario realizar o download das dependencias.
 Para realização do Dowload das dependencias o propio IntelliJ IDEA exibe um Pop-up para dowload
 ou clicando na barra do lado esquerdo na opção Maven e clicar em Reload all Mavem Project.
- 
 
 
 Explain how to run the automated tests for this system
